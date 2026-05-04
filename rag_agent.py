@@ -3,7 +3,9 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain import hub
 from langchain_core.prompts import PromptTemplate
-from knowledge_base import retriever
+from knowledge_base import get_retriever
+
+retriever = get_retriever()
 
 # Use local prompt-based or HF model (no API key needed)
 # For simplicity, use a rule-based + retrieval response with citations
@@ -12,7 +14,8 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 def get_agent_response(query):
-    docs = retriever.get_relevant_documents(query)
+    retriever = get_retriever()
+    docs = retriever.invoke(query)
     context = format_docs(docs)
 
     prompt_template = """
@@ -29,12 +32,7 @@ def get_agent_response(query):
     """
     PROMPT = PromptTemplate.from_template(prompt_template)
 
-    chain = (
-        {"context": retriever | format_docs, "question": RunnablePassthrough()}
-        | PROMPT
-        | lambda x: x  # Simulate LLM with direct formatting for demo
-        | StrOutputParser()
-    )
+    # Simplified for cloud
 
     # For now, use direct formatting as 'LLM' (extend with HF later)
     response = f"""
