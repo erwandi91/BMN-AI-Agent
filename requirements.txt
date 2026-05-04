@@ -1,10 +1,8 @@
-streamlit==1.38.0
-langchain==0.3.1
-langchain-community==0.3.1
-langchain-huggingface==0.1.0
-faiss-cpu==1.8.0
-sentence-transformers==3.1.1
-python-dotenv==1.0.1
-tiktoken==0.7.0
-# Optional: openai==1.51.2 (if using OpenAI API)
-
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+python-dotenv
+tiktoken

@@ -21,5 +21,12 @@ def load_knowledge_base():
     vectorstore = FAISS.from_documents(splits, embeddings)
     return vectorstore.as_retriever(search_kwargs={"k": 4})
 
-retriever = load_knowledge_base()
+# Lazy load
+retriever = None
+
+def get_retriever():
+    global retriever
+    if retriever is None:
+        retriever = load_knowledge_base()
+    return retriever
 
