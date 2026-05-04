@@ -1,0 +1,38 @@
+## Pengelolaan BMN (Barang Milik Negara) - Siklus dan Dokumen
+
+### 1. Siklus BMN (Acquisition → Usage → Maintenance → Transfer/Disposal)
+Dasar Hukum: UU No. 1 Tahun 2004 tentang Perbendaharaan Negara, PP No. 27 Tahun 2014 tentang Pengelolaan BMN.
+
+### 2. Pengajuan Sewa BMN
+Dasar: Permenkeu No. 83/PMK.06/2016.
+Dokumen Dibutuhkan:
+- Surat permohonan sewa dari pemangku kepentingan (stakeholder).
+- Daftar inventaris BMN (format LHKBN).
+- Laporan penilaian (appraisal) oleh Kantor Jasa Penilai Publik (KJPP).
+- MoU/Surat Perjanjian Sewa.
+- SP2D (Surat Perintah Pencairan Dana) jika ada pembayaran.
+- Persetujuan KPA (Kuasa Penggunaan Barang).
+
+### 3. Penetapan Status Penggunaan
+Dasar: Perpres No. 16 Tahun 2018.
+Dokumen:
+- Berita Acara Serah Terima BMN.
+- Surat Keputusan KPA.
+- Kartu Inventaris Barang (KIB).
+- Dokumen inventarisasi.
+
+### 4. Pemindahtanganan (Transfer, Hibah, Penjualan, dll.)
+Dasar: PP No. 28 Tahun 2020, Permenkeu No. 7/PMK.01/2021.
+Dokumen:
+- Laporan Harta Kekayaan Bersih Negara (LHKBN).
+- SK Menteri/Pimpinan Instansi.
+- Untuk lelang: Dokumen Lelang, Berita Acara Lelang.
+- Akta Pemindahan Hak (untuk hibah/transfer).
+- Persetujuan BPK/BPKP jika diperlukan.
+
+### 5. Lainnya
+- Pemeliharaan: Laporan Rutin, SP2D perawatan.
+- Penghapusan: Persetujuan Kementerian Keuangan.
+
+Sumber: Regulasi resmi Kemenkeu/DJKBN. Selalu verifikasi update terbaru.
+
